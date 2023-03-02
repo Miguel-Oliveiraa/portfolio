@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+:root {
+  --fontSizes-xs: 0.75rem;
+  --fontSizes-sm: clamp(10px, calc(10px + 0vw), 10px);
+  --fontSizes-md: clamp(14px, calc(14px + 0vw), 14px);
+  --fontSizes-lg: clamp(18px, calc(3.71px + 3.81vw), 22px);
+  --fontSizes-xl: 1.25rem;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: var(--fontSizes-xl);
+  color: #fff;
+}
+
+h2 {
+  font-size: var(--fontSizes-md);
+  color: #fff;
+}
+
+p {
+  font-size: var(--fontSizes-md);
+  color: #a3a3a3;
+}
+
+h4 {
+  font-size: var(--fontSizes-md);
+  color: #7f7f7f;
+}
+
+h5 {
+  font-size: var(--fontSizes-md);
+  color: #fff;
+}
+
+.main {
+  max-width: 500px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-wrapper {
+  margin: 10% auto;
+}
+
+.experience-wrapper {
+  margin: 10% auto;
+}
+
+.projects-wrapper {
+  margin: 10% auto;
+}
+
+.links-wrapper {
+  margin: 10% auto;
+}
+
+.foto-perfil {
+  width: 22%;
+  border-radius: 100px;
+}
+
+.textosPrincipais {
+  width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main {
+    margin: 8vh 3.5vw;
+  }
+
+  h2 {
+    margin: 5% auto;
+  }
+
+  h5 {
+    font-size: var(--fontSizes-md);
+    color: #fff;
+    margin: 1% auto;
+  }
+
+  .item-links {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .main {
+    margin: 8vh auto;
+  }
+
+  h2 {
+    margin: 5% auto;
+  }
+
+  .item-experiencia {
+    display: flex;
+    align-items: center;
+  }
+
+  .tempo-experiencia {
+    margin-right: 5%;
+  }
+
+  .item-projects {
+    display: flex;
+    align-items: center;
+  }
+
+  .tempo-projects {
+    margin-right: 5%;
+  }
+}
