@@ -10,18 +10,17 @@
 
 body {
   background-color: #000;
+  color: #fff;
   display: flex;
   font-family: "Inter", sans-serif;
 }
 
 h1 {
   font-size: var(--fontSizes-xl);
-  color: #fff;
 }
 
 h2 {
   font-size: var(--fontSizes-md);
-  color: #fff;
 }
 
 p {
@@ -36,17 +35,38 @@ h4 {
 
 h5 {
   font-size: var(--fontSizes-md);
-  color: #fff;
+}
+
+h5 {
+  font-size: var(--fontSizes-md);
+  margin: 2% auto;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .main {
   max-width: 500px;
 }
 
+.title {
+  margin: auto;
+}
+
+.subTitle {
+  margin: auto;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.foto-perfil {
+  width: 22%;
+  border-radius: 100px;
 }
 
 .about-wrapper {
@@ -61,36 +81,25 @@ h5 {
   margin: 1.25rem auto;
 }
 
-.item-projects {
-  text-align: top;
-}
-
 .tempo-experiencia,
 .tempo-projects {
-  min-width: 20%;
+  min-width: 25%;
 }
 
 .projects-wrapper {
   margin: 10% auto;
 }
 
+.item-projects {
+  margin: 1.25rem auto;
+}
+
 .links-wrapper {
   margin: 10% auto;
 }
 
-.foto-perfil {
-  width: 22%;
-  border-radius: 100px;
-}
-
 .textosPrincipais {
   width: 75%;
-}
-
-h5 {
-  font-size: var(--fontSizes-md);
-  color: #fff;
-  margin: 2% auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -108,7 +117,7 @@ h5 {
   }
 
   .item-links {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
   }
 }
 
