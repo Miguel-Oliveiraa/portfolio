@@ -57,6 +57,19 @@ h5 {
   margin: 10% auto;
 }
 
+.item-experiencia {
+  margin: 1.25rem auto;
+}
+
+.item-projects {
+  text-align: top;
+}
+
+.tempo-experiencia,
+.tempo-projects {
+  min-width: 20%;
+}
+
 .projects-wrapper {
   margin: 10% auto;
 }
@@ -74,6 +87,12 @@ h5 {
   width: 75%;
 }
 
+h5 {
+  font-size: var(--fontSizes-md);
+  color: #fff;
+  margin: 2% auto;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .main {
@@ -84,10 +103,8 @@ h5 {
     margin: 5% auto;
   }
 
-  h5 {
-    font-size: var(--fontSizes-md);
-    color: #fff;
-    margin: 1% auto;
+  p {
+    margin: 5% auto;
   }
 
   .item-links {
@@ -105,13 +122,17 @@ h5 {
     margin: 5% auto;
   }
 
+  p {
+    margin: 5% auto;
+  }
+
   .item-experiencia {
     display: flex;
     align-items: center;
   }
 
   .tempo-experiencia {
-    margin-right: 5%;
+    margin-right: 2%;
   }
 
   .item-projects {
@@ -120,6 +141,6 @@ h5 {
   }
 
   .tempo-projects {
-    margin-right: 5%;
+    margin-right: 2%;
   }
 }
